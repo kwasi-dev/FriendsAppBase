@@ -1,6 +1,8 @@
 package dev.kwasi.friendsappbase;
 
-public class Friend {
+import java.io.Serializable;
+
+public class Friend implements Serializable {
     final String firstName;
     final String lastName;
 
